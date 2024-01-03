@@ -6,6 +6,13 @@
     <title>Dev Skills</title>
 </head>
 <body>
-    
+    <h1>I have skills!!</h1>
+    <ul>
+        <% skills.forEach(function(t) { %>
+            <li>
+                <%= t.skill %>
+            </li>
+        <% }); %>
+    </ul>
 </body>
 </html>
